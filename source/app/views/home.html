@@ -1,0 +1,24 @@
+
+
+<h1 class='center'>Payroll Report</h1>
+<div>
+	<div class='form-inline'>
+		<label for='reportFile'>Report File:</label>
+		<input id='reportFile' type='file' file-change='uploadFile' class='inline'/>
+		<button ng-click='generateReport()'>Generate Report</button>
+		<button class='inline' ng-click='removeReports()'>Remove All Reports</button>
+	</div>
+	
+
+	<div id='report-content'>
+		<div ng-show='errorExist' class='errorExist'>{{error}}</div>
+		<div class='panel-header'>
+			<div class='panel-col'>Employee ID</div>
+			<div class='panel-col'>Pay Period</div>
+			<div class='panel-col'>Amount Paid</div>
+		</div>
+		<pay-list ng-hide='errorExist' ng-repeat='data in reportData' data="data"></pay-list>
+		
+	</div>
+
+</div>

@@ -1,0 +1,88 @@
+#content {
+		
+	h1 {
+		color:#333;
+		padding:0;
+		margin:0;
+	}
+}
+.unit-container {
+	display: inline-flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.unit {
+	margin-left: 20px;
+	display: inline-block;
+}
+.notFound {
+	color: #FF0000;
+	font-size: 36px;
+}
+.errorExist {
+	color: #FF0000;
+	font-size: 36px;
+}
+.center {
+	text-align: center;
+}
+input[type="file"] {
+	display: inline-block;
+}
+.form-inline {
+	display: inline-block;
+	margin-top: 40px;
+}
+#report-content .panel-body:nth-child(odd) {
+	background-color: #fff;
+}
+#report-content .panel-body:nth-child(even) {
+	background-color: #aaa;
+}
+#report-content {
+	margin-top: 20px;
+	.panel {
+		width: 100%;
+		background-color: #555555;
+		color: #eeeeee;
+		font-size: 20px;
+	}
+	.panel-header {
+		background-color: #ccc;
+		font-size: 20px;
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		width: 100%;
+		
+	}
+	.panel-body {
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		width: 100%;
+		padding: 0px;
+		background: #ccc;
+	}
+	.panel-body > div {
+		flex: 1;
+	}
+
+	.panel-footer {
+		background-color: #558855;
+		font-size: 12px;
+	}
+	.small-hori {
+		display: inline-block;
+	}
+	.panel-col {
+		flex: 1;
+		height: 30px;
+		border: solid #bbb 1px;
+		display: inline-block;
+		text-align: center;
+	}
+	col {
+		flex: 30px 1 0;
+	}
+}
