@@ -24,7 +24,9 @@ This starter kit provides a number of **npm** scripts to make your development w
 6. One concern is about uploading several different file with different report id, should I generate all records stored in database, or just those records in that file? `According your instruction 6.The report should be based on all of the data across all of the uploaded time reports, for all time.` It looks like I should create the report from everything in database.
 
 ## Here are the pages
-!(https://github.com/maplefu0601/payrollReport/blob/master/docs/payrollReport.PNG)
+![payroll report](https://github.com/maplefu0601/payrollReport/blob/master/docs/payrollReport.PNG "Demo page")
 ### It will show error if the report id is already exist
-!(https://github.com/maplefu0601/payrollReport/blob/master/docs/payrollReport-error.PNG)
+![error](https://github.com/maplefu0601/payrollReport/blob/master/docs/payrollReport-error.PNG "same report id exists error")
+
+
 
