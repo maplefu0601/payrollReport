@@ -4,7 +4,7 @@
 ## Getting Started
 
 
-1. Run `npm install` from within the root of the project folder.
+1. Run `npm install` from within the root of the project folder. If error happens, please run `npm install` again.
 
 ## Usage
 
